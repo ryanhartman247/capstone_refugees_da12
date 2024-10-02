@@ -357,8 +357,8 @@
         </view>
         <style>
           <style-rule element='axis'>
-            <encoding attr='space' class='0' field='[federated.1px3ihv06pyqq712foy4g1oaugma].[Longitude (generated)]' field-type='quantitative' max='21540993.399646025' min='-19149586.692380194' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
-            <encoding attr='space' class='0' field='[federated.1px3ihv06pyqq712foy4g1oaugma].[Latitude (generated)]' field-type='quantitative' max='16207544.771818874' min='-7882278.1963048317' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.1px3ihv06pyqq712foy4g1oaugma].[Longitude (generated)]' field-type='quantitative' max='12009821.04182921' min='-3678158.5995731335' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1px3ihv06pyqq712foy4g1oaugma].[Latitude (generated)]' field-type='quantitative' max='8816470.1302312817' min='-471199.18866763962' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
           </style-rule>
           <style-rule element='mark'>
             <encoding attr='color' field='[federated.1px3ihv06pyqq712foy4g1oaugma].[sum:Total:qk]' max='25000000' min='0' type='interpolated' />
@@ -403,7 +403,7 @@
     </worksheet>
   </worksheets>
   <windows source-height='30'>
-    <window class='worksheet' name='Origin'>
+    <window class='worksheet' maximized='true' name='Origin'>
       <cards>
         <edge name='left'>
           <strip size='221'>
@@ -434,7 +434,7 @@
       </viewpoint>
       <simple-id uuid='{14998C44-E66E-4B41-BFB0-9A2F1EE46223}' />
     </window>
-    <window class='worksheet' maximized='true' name='Asylum'>
+    <window class='worksheet' name='Asylum'>
       <cards>
         <edge name='left'>
           <strip size='214'>
